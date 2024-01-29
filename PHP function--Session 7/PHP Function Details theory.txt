@@ -1,0 +1,47 @@
+
+(1) Function in PHP: A function is a piece of code which takes one more input in the form of parameter and does some processing and returns a value.
+
+There are two parts of function−−−
+
+*Creating a PHP Function
+*Calling a PHP Function
+
+
+
+(2) Conditionally created function: Conditionally creating functions  means defining a function based on certain conditions being met. 
+
+As like,
+ *if & else
+
+The list of conditional function:
+*class_exists()
+*interface_exixts()
+*method_exists()
+*propertity_exixts()
+*trait_exists()
+
+
+(3) Function Returning value: A function can return a value using the return statement in conjunction with a value or object. return stops the execution of the function
+          and sends the value back to the calling code.
+
+
+
+(4) Passing Arguments by Reference: In PHP, arguments are usually passed by value, which means that a copy of the value is used in the function and the variable that was 
+           passed into the function cannot be changed.
+
+    When a function argument is passed by reference, changes to the argument also change the variable that was passed in. To turn a function argument into a reference, the
+    & operator is used:
+
+
+(5) Argument Passing By Value:  When you pass by value, a copy of the variable's value is passed to the function, leaving the original variable unchanged outside of the
+    function's scope. This means that modifications made to the parameter inside the function do not affect the original variable.
+
+
+
+
+
+
+
+
+
+
